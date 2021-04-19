@@ -122,7 +122,7 @@ header {
 }
 
 .interline {
-  margin: 40px 0;
+  margin: 50px 0;
   display: flex;
   align-items: center;
   height: 125px;
@@ -151,4 +151,87 @@ header {
   transform: rotate(180deg);
   position: absolute;
   right: 0px;
+}
+
+.how_to_be {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.how_to_be .how_title {
+  width: 40%;
+}
+.how_to_be .how_title span {
+  color: #20ac97;
+  font-size: 12px;
+  font-family: "Commissioner", sans-serif;
+}
+.how_to_be .how_title h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 34px;
+  font-weight: 400;
+}
+.how_to_be .how_text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Commissioner", sans-serif;
+}
+.how_to_be .how_text span {
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.how_to_be .how_text span div {
+  display: inline-block;
+  color: #20ac97;
+}
+.how_to_be .how_text p {
+  font-size: 12px;
+  color: #6b6c6c;
+}
+
+.video {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.video .video_player {
+  position: relative;
+  width: 55%;
+}
+.video .video_player .video_preview {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 3px 5px rgba(0, 0, 0, 0);
+}
+.video .video_player .video_play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 65px;
+}
+.video .video_text {
+  font-family: "Playfair Display", serif;
+  width: 40%;
+}
+.video .video_text h3 {
+  font-size: 24px;
+  font-weight: 300;
+}
+.video .video_text img {
+  margin: 50px 0px 20px 0px;
+  height: 20px;
+}
+.video .video_text p {
+  font-family: "Commissioner", sans-serif;
+  font-size: 22px;
+}
+.video .video_text span {
+  font-family: "Commissioner", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #6b6c6c;
 }
