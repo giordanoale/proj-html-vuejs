@@ -14,14 +14,35 @@ body {
   margin: auto;
 }
 
+.btn {
+  background-color: #20ac97;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  padding-top: 4px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #3F3A64;
+  border-color: #3F3A64;
+}
+.btn i {
+  margin-left: 10px;
+}
+
 header {
   background-image: url("../img/background-pattern-wavify.png");
   background-color: #ebe9ed;
   height: 580px;
-  font-family: "Commissioner", sans-serif;
 }
 
 .main_nav {
+  font-family: "Commissioner", sans-serif;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -49,4 +70,34 @@ header {
 .social i {
   font-size: 14px;
   margin-left: 12px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero .hero__text {
+  width: 46%;
+  padding-right: 20px;
+}
+.hero .hero__text span {
+  display: block;
+  font-family: "Commissioner", sans-serif;
+  font-size: 12px;
+  margin-bottom: 16px;
+  line-height: 30px;
+}
+.hero .hero__text h1 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  font-size: 46px;
+  margin-bottom: 16px;
+}
+.hero .hero__image {
+  width: 50%;
+}
+.hero .hero__image img {
+  height: 500px;
+  margin-top: 40px;
 }

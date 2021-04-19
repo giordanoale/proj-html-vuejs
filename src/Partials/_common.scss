@@ -13,3 +13,25 @@ body {
     width: 60%;
     margin: auto;
 }
+
+.btn {
+    background-color: $btnColor;
+    color: #fff;
+    font-size: $smallFont;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    padding-top: 4px;
+    cursor: pointer;
+    &:hover {
+        background-color: $colorViolet;
+        border-color: $colorViolet;
+    }
+
+    i {
+        margin-left: 10px;
+    }
+}

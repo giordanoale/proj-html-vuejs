@@ -1,11 +1,14 @@
+// intestazione
 header {
     background-image: url("../img/background-pattern-wavify.png");
     background-color: $backgroundColor;
     height: 580px;
-    font-family: $sansSerif;
 }
 
+// barra di navigazione
+
 .main_nav {
+    font-family: $sansSerif;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,7 +26,7 @@ header {
             cursor: pointer;
             margin-right: 30px;
             color: $colorViolet;
-            font-size: 12px;
+            font-size: $smallFont;
             i {
                 font-size: 8px;
                 margin-left: 3px;
@@ -38,3 +41,38 @@ header {
         margin-left: 12px;
     }
 }
+// /barra di navigazione
+
+// hero
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .hero__text {
+        width: 46%;
+        padding-right: 20px;
+        span {
+            display: block;
+            font-family: $sansSerif;
+            font-size: $smallFont;
+            margin-bottom: 16px;
+            line-height: 30px;
+        }
+        h1 {
+            font-family: $serif;
+            font-weight: 300;
+            font-size: 46px;
+            margin-bottom: 16px;
+        }
+    }
+    .hero__image {
+        width: 50%;
+        img {
+            height: 500px;
+            margin-top: 40px;
+        }
+    }
+}
+// /hero
+
+// /intestazione
