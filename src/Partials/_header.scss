@@ -1,0 +1,40 @@
+header {
+    background-image: url("../img/background-pattern-wavify.png");
+    background-color: $backgroundColor;
+    height: 580px;
+    font-family: $sansSerif;
+}
+
+.main_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+
+    .logo {
+        height: 20px;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        li {
+            cursor: pointer;
+            margin-right: 30px;
+            color: $colorViolet;
+            font-size: 12px;
+            i {
+                font-size: 8px;
+                margin-left: 3px;
+            }
+        }
+    }
+}
+
+.social {
+    i {
+        font-size: 14px;
+        margin-left: 12px;
+    }
+}
