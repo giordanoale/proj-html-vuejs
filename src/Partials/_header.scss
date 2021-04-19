@@ -3,6 +3,7 @@ header {
     background-image: url("../img/background-pattern-wavify.png");
     background-color: $backgroundColor;
     height: 580px;
+    overflow: hidden;
 }
 
 // barra di navigazione
@@ -27,6 +28,10 @@ header {
             margin-right: 30px;
             color: $colorViolet;
             font-size: $smallFont;
+            &:hover {
+                color: $btnColor;
+                border-bottom: 1px solid $btnColor;
+            }
             i {
                 font-size: 8px;
                 margin-left: 3px;
@@ -37,8 +42,12 @@ header {
 
 .social {
     i {
+        cursor: pointer;
         font-size: 14px;
         margin-left: 12px;
+        &:hover {
+            color: $btnColor;
+        }
     }
 }
 // /barra di navigazione
@@ -67,9 +76,19 @@ header {
     }
     .hero__image {
         width: 50%;
+        position: relative;
         img {
+            position: relative;
             height: 500px;
+            z-index: 1;
             margin-top: 40px;
+        }
+        .back__pic {
+            position: absolute;
+            top: 134px;
+            left: 20px;
+            z-index: 0;
+            height: 396px;
         }
     }
 }

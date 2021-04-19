@@ -11,7 +11,7 @@
 
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <!-- /google fonts -->
 
     <!-- fontawesome -->
@@ -73,18 +73,34 @@
                     </div>
 
                     <div class="hero__image">
-                        <img src="img/home-movation-hero-image.png" alt="">
+                        <img src="img/home-movation-hero-image.png" alt="pro-pic">
+                        <img class="back__pic" src="img/home-movation-shape-face-600x534.png" alt="back-pic">
                     </div>
                 </div>
                 <!-- hero -->
-
 
             </div>
 
         </header>
         <!-- /intestazione -->
 
+        <!-- corpo principale -->
+        <main>
+            <div class="container">
 
+            <!-- interlinea -->
+                <div class="interline">
+                    <div class="stat" v-for="item in stats">
+                        <p>{{item.stat}}</p>
+                        <span>{{item.name}}</span>
+                    </div>
+                    <img class="divider" src="img/background-pattern-grid-line-06.png" alt="divider">
+                </div>
+            <!-- /interlinea -->
+
+            </div>
+        </main>
+        <!-- /corpo principale -->
     </div>
 
     <!-- javascript -->
