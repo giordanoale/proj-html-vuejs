@@ -10,22 +10,23 @@ body {
 }
 
 .container {
-  width: 60%;
+  width: 70%;
   margin: auto;
 }
 
 .btn {
   background-color: #20ac97;
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
-  display: flex;
-  justify-content: center;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
   width: 200px;
   height: 40px;
   border-radius: 5px;
-  padding-top: 4px;
   cursor: pointer;
+  font-family: "Commissioner", sans-serif;
 }
 .btn:hover {
   background-color: #3F3A64;
@@ -61,7 +62,7 @@ header {
   cursor: pointer;
   margin-right: 30px;
   color: #3F3A64;
-  font-size: 12px;
+  font-size: 14px;
 }
 .main_nav ul li:hover {
   color: #20ac97;
@@ -90,10 +91,10 @@ header {
   width: 46%;
   padding-right: 20px;
 }
-.hero .hero__text span {
+.hero .hero__text p {
   display: block;
   font-family: "Commissioner", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 16px;
   line-height: 30px;
 }
@@ -157,14 +158,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
 .how_to_be .how_title {
   width: 40%;
 }
 .how_to_be .how_title span {
   color: #20ac97;
-  font-size: 12px;
+  font-size: 14px;
   font-family: "Commissioner", sans-serif;
 }
 .how_to_be .how_title h2 {
@@ -188,14 +189,14 @@ header {
   color: #20ac97;
 }
 .how_to_be .how_text p {
-  font-size: 12px;
+  font-size: 14px;
   color: #6b6c6c;
 }
 
 .video {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 .video .video_player {
   position: relative;
@@ -231,7 +232,92 @@ header {
 }
 .video .video_text span {
   font-family: "Commissioner", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   color: #6b6c6c;
+}
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.courses_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.courses_text p {
+  font-family: "Commissioner", sans-serif;
+  font-size: 14px;
+  color: #6b6c6c;
+  margin-bottom: 20px;
+}
+.courses_text h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 34px;
+  font-weight: 400;
+}
+.courses_text h2 span {
+  color: #20ac97;
+}
+
+.cards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cards .card {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  font-family: "Commissioner", sans-serif;
+  margin-bottom: 30px;
+}
+.cards .card:hover {
+  box-shadow: 0 14px 59px rgba(0, 0, 0, 0.12);
+}
+.cards .card img {
+  width: 100%;
+}
+.cards .card .card_container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.cards .card .card_container span {
+  padding-top: 20px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #20ac97;
+}
+.cards .card .card_container p {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 33px;
+  color: #3F3A64;
+}
+.cards .card .card_container p:hover {
+  color: #20ac97;
+  cursor: pointer;
+}
+.cards .card .card_container .card__text {
+  margin: 20px 0 40px 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.cards .card .card_container .card__text span {
+  color: #6b6c6c;
+  font-size: 14px;
+  margin-right: 30px;
+}
+.cards .card .card_container .card__text span i {
+  margin-right: 5px;
 }

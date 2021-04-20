@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 
@@ -19,13 +19,14 @@ body {
     color: #fff;
     font-size: $smallFont;
     font-weight: 500;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
     width: 200px;
     height: 40px;
     border-radius: 5px;
-    padding-top: 4px;
     cursor: pointer;
+    font-family: $sansSerif;
     &:hover {
         background-color: $colorViolet;
         border-color: $colorViolet;

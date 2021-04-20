@@ -60,13 +60,12 @@
                 <!-- hero -->
                 <div class="hero">
                     <div class="hero__text">
-                        <span>I'M WINGMAN</span>
+                        <p>I'M WINGMAN</p>
                         <h1>Peace On Earth A Wonderful Wish But No Way</h1>
-                        <span>Success isn't overnight. It's when everyday you get a little better than the day before. It all adds up.</span>
+                        <p>Success isn't overnight. It's when everyday you get a little better than the day before. It all adds up.</p>
 
                         <div class="btn">
-                            <span>
-                                Get Started For Free <i class="fas fa-long-arrow-alt-right"></i>
+                            <span>Get Started For Free <i class="fas fa-long-arrow-alt-right"></i>
                             </span>
                         </div>
 
@@ -128,8 +127,41 @@
                             <span>WINGMAN</span>
                         </div>
                     </div>
+
                 </div>
                 <!-- /sezione about me -->
+
+                <!-- sezione corsi -->
+                <div class="courses">
+
+                    <div class="courses_text">
+                        <p>BEGIN YOUR JOURNEY AT MAXCOACH</p>
+                        <h2>Latest <span>Online Courses</span></h2>
+                    </div>
+
+                    <div class="cards">
+                        <div class="card" v-for="item in courses">
+                            <img :src="item.image" alt="Course Cover">
+                            <div class="card_container">
+                                <span>{{item.price}}</span>
+                                <p>{{item.name}}</p>
+                                <div class="card__text">
+                                    <span><i class="far fa-file-alt"></i> {{item.lessons}}</span>
+                                    <span><i class="far fa-user"></i> {{item.students}} Students</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="btn">
+                        <span>
+                            View all courses <i class="fas fa-long-arrow-alt-right"></i>
+                        </span>
+                    </div>
+
+                </div>
+                <!-- /sezione corsi -->
+
 
             </div>
         </main>

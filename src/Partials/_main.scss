@@ -38,7 +38,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
     
     .how_title{
         width: 40%;
@@ -78,7 +78,7 @@
 .video {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     .video_player {
         position: relative;
         width: 55%;
@@ -114,8 +114,103 @@
             font-family: $sansSerif;
             font-size: $smallFont;
             font-weight: 700;
-            color: #6b6c6c;
+            color: $greyColor;
         }
     }
 }
 // /sezione about me
+
+// sezione corsi
+.courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.courses_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+
+    p {
+        font-family: $sansSerif;
+        font-size: $smallFont;
+        color: $greyColor;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-family: $serif;
+        font-size: 34px;
+        font-weight: 400;
+        span {
+            color: $btnColor;
+        }
+    }
+}
+
+.cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    .card {
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        font-family: $sansSerif;
+        margin-bottom: 30px;
+        &:hover {
+            box-shadow: 0 14px 59px rgb(0 0 0 / 12%);
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .card_container {
+            width: 85%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;    
+            span {
+                padding-top: 20px;
+                font-size: 26px;
+                font-weight: 600;
+                color: $btnColor;
+            }
+    
+            p {
+                margin-top: 8px;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 33px;
+                color: $colorViolet;
+
+                &:hover {
+                    color: $btnColor;
+                    cursor:pointer;
+                }
+            }
+    
+            .card__text {
+                margin: 20px 0 40px 0;
+                display: flex;
+                justify-content: flex-start;
+                span {
+                    color: $greyColor;
+                    font-size: $smallFont;
+                    margin-right: 30px;
+                    i {
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+// /sezione corsi
