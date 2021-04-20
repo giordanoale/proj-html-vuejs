@@ -214,3 +214,98 @@
     }
 }
 // /sezione corsi
+
+// sezione bookstore
+.bookstore {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    .bookstore_text {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        p {
+            font-family: $sansSerif;
+            color: $greyColor;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-family: $serif;
+            font-size: 36px;
+            font-weight: 400;
+            margin-bottom: 20px;
+            span {
+                color: $btnColor;
+            }
+        }
+    
+        ul {
+            margin-bottom: 20px;
+            li {
+                list-style: none;
+                font-family: $sansSerif;
+                font-size: $smallFont;
+                color: $greyColor;
+                margin-bottom: 10px;
+                i {
+                    color: $btnColor;
+                    font-size: 16px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    .bookstore_card {
+        width: 27%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+
+        &:hover .circles {
+            display: block;
+        }
+        img {
+            width: 100%;
+        }  
+        
+        .circles {
+            position: absolute;
+            display: none;
+            right: 26px;
+            top: 48px;
+            li {
+                list-style: none;
+                background-color: #fff;
+                height: 32px;
+                border-radius: 50%;
+                margin-bottom: 14px;
+                width: 32px;
+                line-height: 32px;
+                text-align: center;
+                font-size: 15px;
+                cursor: pointer;
+                &:hover {
+                    color: $btnColor;
+                }
+            }
+        }
+        
+        .title {
+            font-family: $sansSerif;
+            color: $colorViolet;
+            font-weight: 500;
+            margin: 20px 0;
+        } 
+        .price {
+            font-family: $sansSerif;
+            color: $btnColor;
+            font-size: 24px;
+            font-weight: 600;
+        }
+    }
+    
+}
+// /sezione bookstore

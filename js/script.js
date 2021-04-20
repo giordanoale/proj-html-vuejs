@@ -1,6 +1,7 @@
 var app = new Vue({
     el: '#app',
     data: {
+
         navigation: {
             home: {
                 name: "Home",
@@ -21,6 +22,7 @@ var app = new Vue({
                 name: "Shop",
             }
         },
+
         stats: {
             sessions: {
                 name: "Finished Sessions",
@@ -39,6 +41,7 @@ var app = new Vue({
                 stat: "200",
             }
         },
+
         courses: {
             first: {
                 name: "How to be Successful: Create A Growth Mindset For Success",
@@ -88,6 +91,21 @@ var app = new Vue({
                 price: "$19.99",
                 lessons: "17 Lessons",
                 students: "50",
+            },
+        },
+         
+        books: {
+            book1: {
+                title: "Alpha Man",
+                author: "Maxcoach",
+                price: "$29.00",
+                cover: "img/product-book-11-400x400.jpg"
+            },
+            book2: {
+                title: "Real Man 4.0",
+                author: "Maxcoach",
+                price: "$39.00",
+                cover: "img/product-book-10-400x400.jpg"
             },
         }
     }

@@ -162,6 +162,41 @@
                 </div>
                 <!-- /sezione corsi -->
 
+                <!-- sezione bookstore -->
+                <div class="bookstore">
+
+                    <div class="bookstore_text">
+                        <p>BOOK STORE ONLINE</p>
+                        <h2>Be Alpha With <span>Wingman's Book</span></h2>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Help you understand yourself better</li>
+                            <li><i class="fas fa-check"></i> Revealing mature tips</li>
+                            <li><i class="fas fa-check"></i> Give the right advice</li>
+                            <li><i class="fas fa-check"></i> Fascinating examples of alpha man</li>
+                        </ul>
+                        <div class="btn">
+                            <span>Get Free Ebook</span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="bookstore_card" v-for="book in books">
+                        <img :src="book.cover" alt="Book Cover">
+                        <ul class="circles">
+                            <li><i class="fas fa-search"></i></li>
+                            <li><i class="fas fa-shopping-cart"></i></li>
+                            <li><i class="far fa-heart"></i></li>
+                            <li><i class="fas fa-signal"></i></li>
+                        </ul>
+                        <p class="title"> {{book.title}} by {{book.author}} </p>
+                        <p class="price"> {{book.price}} </p>
+                    </div>
+
+                    
+                </div>
+                <!-- /sezione bookstore -->
+
+
 
             </div>
         </main>

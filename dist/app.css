@@ -321,3 +321,89 @@ header {
 .cards .card .card_container .card__text span i {
   margin-right: 5px;
 }
+
+.bookstore {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.bookstore .bookstore_text {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.bookstore .bookstore_text p {
+  font-family: "Commissioner", sans-serif;
+  color: #6b6c6c;
+  margin-bottom: 20px;
+}
+.bookstore .bookstore_text h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.bookstore .bookstore_text h2 span {
+  color: #20ac97;
+}
+.bookstore .bookstore_text ul {
+  margin-bottom: 20px;
+}
+.bookstore .bookstore_text ul li {
+  list-style: none;
+  font-family: "Commissioner", sans-serif;
+  font-size: 14px;
+  color: #6b6c6c;
+  margin-bottom: 10px;
+}
+.bookstore .bookstore_text ul li i {
+  color: #20ac97;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.bookstore .bookstore_card {
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.bookstore .bookstore_card:hover .circles {
+  display: block;
+}
+.bookstore .bookstore_card img {
+  width: 100%;
+}
+.bookstore .bookstore_card .circles {
+  position: absolute;
+  display: none;
+  right: 26px;
+  top: 48px;
+}
+.bookstore .bookstore_card .circles li {
+  list-style: none;
+  background-color: #fff;
+  height: 32px;
+  border-radius: 50%;
+  margin-bottom: 14px;
+  width: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+.bookstore .bookstore_card .circles li:hover {
+  color: #20ac97;
+}
+.bookstore .bookstore_card .title {
+  font-family: "Commissioner", sans-serif;
+  color: #3F3A64;
+  font-weight: 500;
+  margin: 20px 0;
+}
+.bookstore .bookstore_card .price {
+  font-family: "Commissioner", sans-serif;
+  color: #20ac97;
+  font-size: 24px;
+  font-weight: 600;
+}
