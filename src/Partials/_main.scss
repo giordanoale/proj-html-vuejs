@@ -326,3 +326,73 @@
         } 
     }
 }
+// /underline
+
+// sezione carousel
+.carousel {
+    margin-boyttom: 80px;
+    display: flex;
+    position: relative;
+    .text_box {
+        width: 50%;
+        background-image: $waves;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        p {
+            color: $btnColor;
+            font-family: $sansSerif;
+        }
+        h3 {
+            font-family: $sansSerif;
+            text-align: center;
+            font-weight: 300;
+            width: 50%;
+            line-height: 37px;
+        }
+
+        .testimonial_info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            img {
+                height: 90px;
+                border-radius: 50%;
+            }
+            span {
+                font-family: $sansSerif;
+                color: $greyColor;
+                font-size: $smallFont;
+            }
+        }
+        
+    }
+    .img_box {
+        width: 50%;
+    }
+
+    .arrows {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        height: 90px;
+        width: 90px;
+        background-color: #fff;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        box-shadow: 3px -9px 107px -19px rgba(0,0,0,0.74);
+        img {
+            height: 10px;
+        }
+        span {
+            font-family: $sansSerif;
+            font-size: $smallFont;
+        }
+    }
+}
