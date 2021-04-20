@@ -107,6 +107,30 @@ var app = new Vue({
                 price: "$39.00",
                 cover: "img/product-book-10-400x400.jpg"
             },
+        },
+        sponsors: {
+            stylus: {
+                logo: "img/client-logo-01-primary.png",
+            },
+            tree: {
+                logo: "img/client-logo-02-primary.png",
+            },
+            brook: {
+               logo: "img/client-logo-03-primary.png",
+            },
+            pencil: {
+                logo: "img/client-logo-04-primary.png",
+
+            },
+            itsalive: {
+                logo: "img/client-logo-05-primary.png",
+            },
+            sixbase: {
+                logo: "img/client-logo-06-primary.png",
+            },
+            nowhere: {
+                logo: "img/client-logo-07-primary.png",
+            }, 
         }
     }
   })

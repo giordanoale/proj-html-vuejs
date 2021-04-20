@@ -309,3 +309,20 @@
     
 }
 // /sezione bookstore
+
+// underline
+.sponsors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+    img {
+        filter: brightness( 50% ) contrast( 100% ) saturate( 100% );
+        opacity: 0.2;
+        width: 92px;
+        &:hover {
+            filter: none;
+            opacity: 1;
+        } 
+    }
+}

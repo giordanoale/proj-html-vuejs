@@ -407,3 +407,19 @@ header {
   font-size: 24px;
   font-weight: 600;
 }
+
+.sponsors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.sponsors img {
+  filter: brightness(50%) contrast(100%) saturate(100%);
+  opacity: 0.2;
+  width: 92px;
+}
+.sponsors img:hover {
+  filter: none;
+  opacity: 1;
+}
