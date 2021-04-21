@@ -498,6 +498,7 @@ header {
 }
 .carousel .arrows img {
   height: 10px;
+  cursor: pointer;
 }
 .carousel .arrows span {
   font-family: "Commissioner", sans-serif;
