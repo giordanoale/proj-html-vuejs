@@ -108,6 +108,7 @@ var app = new Vue({
                 cover: "img/product-book-10-400x400.jpg"
             },
         },
+
         sponsors: {
             stylus: {
                 logo: "img/client-logo-01-primary.png",
@@ -131,6 +132,33 @@ var app = new Vue({
             nowhere: {
                 logo: "img/client-logo-07-primary.png",
             }, 
+        },
+
+        blog: {
+            post4: {
+                title: "How to Stay True to Your Personal Brand",
+                preview: "When it comes to your business or career, you want …",
+                date: "May 13, 2020",
+                cover: "img/motivation-blog-04-480x325.jpg",
+            },
+            post3: {
+                title: "5 Vital Lessons in 5 Years of Freelancing",
+                preview: "Being self-employed and working from home, it’s easy to get …",
+                date: "May 13, 2020",
+                cover: "img/motivation-blog-03-480x325.jpg",
+            },
+            post2: {
+                title: "11 Super Useful Tips for Small-Business Owners",
+                preview: "Being a small-business owner poses a ton of challenges. We …",
+                date: "May 13, 2020",
+                cover: "img/motivation-blog-02-480x325.jpg",
+            },
+            post1: {
+                title: "How to Give Yourself Grace to Start Again",
+                preview: "Forgive yourself for bad habits you may have started or …",
+                date: "May 13, 2020",
+                cover: "img/motivation-blog-01-480x325.jpg",
+            },
         }
     }
   })

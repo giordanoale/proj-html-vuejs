@@ -229,8 +229,36 @@
             </div>
             <!-- /sezione carousel -->
 
+            <div class="container">
+
+                <!-- sezione blog -->
+                <div class="blog">
+                    <div class="blog_title">
+                        <p>blog updated</p>
+                        <h2>Interesting <span>articles updated</span> daily</h2>
+                    </div>
+
+                    <div class="blog_cards">
+                        <div class="post" v-for="item in blog">
+                            <img :src="item.cover" alt="post cover">
+                            <p> <i class="far fa-calendar"></i> {{item.date}}</p>
+                            <h4>{{item.title}}</h4>
+                            <p>{{item.preview}}</p>
+                        </div>
+                    </div>
+
+                    <div class="blog_all">
+                        <span>view all posts</span>
+                    </div>
+                </div>
+                <!-- /sezione blog -->
+
+            </div>
+
         </main>
         <!-- /corpo principale -->
+
+        
     </div>
 
     <!-- javascript -->

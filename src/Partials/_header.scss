@@ -28,9 +28,11 @@ header {
             margin-right: 30px;
             color: $colorViolet;
             font-size: $smallFont;
+            border-bottom: 2px solid transparent;
+
             &:hover {
                 color: $btnColor;
-                border-bottom: 1px solid $btnColor;
+                border-bottom: 2px solid $btnColor;
             }
             i {
                 font-size: 8px;

@@ -330,9 +330,11 @@
 
 // sezione carousel
 .carousel {
-    margin-boyttom: 80px;
+    margin-bottom: 80px;
     display: flex;
     position: relative;
+    width: 100vw;
+    overflow-x: hidden;
     .text_box {
         width: 50%;
         background-image: $waves;
@@ -396,3 +398,78 @@
         }
     }
 }
+// /sezione carousel
+
+// sezione blog
+.blog_title {
+        p {
+            font-family: $sansSerif;
+            color: $greyColor;
+            text-transform: uppercase;
+            font-size: $smallFont;
+        }
+        h2 {
+            font-family: $serif;
+            font-size: 36px;
+            font-weight: 400;
+            margin: 20px 0;
+            span {
+                color: $btnColor;
+            }
+        }
+}
+
+.blog_cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+    .post {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 22%;
+        height: 120px;
+        img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-family: $sansSerif;
+            color: $greyColor;
+            font-size: $smallFont;
+            margin-bottom: 20px;
+            i {
+                margin-right: 8px;
+            }
+        }
+        h4 {
+            font-family: $sansSerif;
+            margin-bottom: 20px;
+            line-height: 25px;
+            &:hover {
+                color: $btnColor;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.blog_all {
+    text-align: center;
+    margin-top: 224px;
+    margin-bottom: 40px;
+    span {
+        font-family: $sansSerif;
+        text-transform: uppercase;
+        color: $btnColor;
+        border-bottom: 2px solid $btnColor;
+        padding-bottom: 3px;
+        cursor: pointer;
+        &:hover {
+            color: $colorViolet;
+            border-bottom: 2px solid $colorViolet;
+        }
+    }
+}
+// /sezione blog

@@ -63,10 +63,11 @@ header {
   margin-right: 30px;
   color: #3F3A64;
   font-size: 14px;
+  border-bottom: 2px solid transparent;
 }
 .main_nav ul li:hover {
   color: #20ac97;
-  border-bottom: 1px solid #20ac97;
+  border-bottom: 2px solid #20ac97;
 }
 .main_nav ul li i {
   font-size: 8px;
@@ -425,9 +426,11 @@ header {
 }
 
 .carousel {
-  margin-boyttom: 80px;
+  margin-bottom: 80px;
   display: flex;
   position: relative;
+  width: 100vw;
+  overflow-x: hidden;
 }
 .carousel .text_box {
   width: 50%;
@@ -487,4 +490,74 @@ header {
 .carousel .arrows span {
   font-family: "Commissioner", sans-serif;
   font-size: 14px;
+}
+
+.blog_title p {
+  font-family: "Commissioner", sans-serif;
+  color: #6b6c6c;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.blog_title h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+.blog_title h2 span {
+  color: #20ac97;
+}
+
+.blog_cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+.blog_cards .post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 22%;
+  height: 120px;
+}
+.blog_cards .post img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.blog_cards .post p {
+  font-family: "Commissioner", sans-serif;
+  color: #6b6c6c;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.blog_cards .post p i {
+  margin-right: 8px;
+}
+.blog_cards .post h4 {
+  font-family: "Commissioner", sans-serif;
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+.blog_cards .post h4:hover {
+  color: #20ac97;
+  cursor: pointer;
+}
+
+.blog_all {
+  text-align: center;
+  margin-top: 224px;
+  margin-bottom: 40px;
+}
+.blog_all span {
+  font-family: "Commissioner", sans-serif;
+  text-transform: uppercase;
+  color: #20ac97;
+  border-bottom: 2px solid #20ac97;
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+.blog_all span:hover {
+  color: #3F3A64;
+  border-bottom: 2px solid #3F3A64;
 }
