@@ -199,32 +199,36 @@ var app = new Vue({
             },
         },
 
-        testimonials: {
-            mina: {
+        testimonials: [
+            {
                 name: "Mina Hollace",
                 job:"Freelancer",
                 quote: "I am free to learn at my own pace, follow my own schedule and choose the subject I want to learn from the syllabus. Great study portal for people like me.",
                 proPic:"img/testimonial-avata-02.jpg",
+                active: 0,
             },
-            madley: {
+            {
                 name: "Madley Pondor",
                 job: "IT Specialist",
                 quote: "I need to get a certification for English proficiency and MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.",
                 proPic: "img/testimonial-avata-04.jpg",
+                active: 1,
             },
-            luvic: {
+            {
                 name: "Luvic Dubble",
                 job: "Private Tutor",
                 quote: "I am happy with their arrangement of lessons and subjects. They reflect a scientific  investigation into effective methods to adopt for learners.",
                 proPic: "img/testimonial-avata-01.jpg",
+                active: 2,
             },
-            florence: {
+            {
                 name: "Florence Themes",
                 job: "Multimedia Admin",
                 quote: "I'm a very strict person so I require everything to be organized and neat. Then, I'll be able to make things right and shine. MaxCoach guys just got me.",
                 proPic: "img/testimonial-avata-03.jpg",
+                active: 3,
             }
-        }
+        ],
     },
     methods: {
         arrowDown: 
@@ -236,9 +240,10 @@ var app = new Vue({
                     this.counter = this.counter + 1;
 
                 }
-               console.log(this.counter);
+                
+                console.log(this.counter);
             },
-            
+
         arrowUp: 
             function() {
                 if (this.counter == 0) {

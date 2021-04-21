@@ -207,13 +207,17 @@
 
             <!-- sezione carousel -->
             <div class="carousel">
-                <div class="text_box" v-for="index in testimonials">
+            
+                <div class="text_box">
+
                     <p>REAL STORIES</p>
-                    <h3>{{item[counter].quote}}</h3>
-                    <div class="testimonial_info">
-                        <img :src="item[counter].propic" alt="avatar">
-                        <h3>{{item[counter].name}}</h3>
-                        <span>/{{item[counter].job}}</span>
+                    <div class="story" v-for="item in testimonials">
+                        <h3 v-if="item.active == counter">{{item.quote}}</h3>
+                        <div class="testimonial_info">
+                            <img v-if="item.active == counter" :src="item.proPic" alt="avatar">
+                            <h3 v-if="item.active == counter">{{item.name}}</h3>
+                            <span v-if="item.active == counter">/{{item.job}}</span>
+                        </div>
                     </div>
 
                 </div>
@@ -223,7 +227,7 @@
 
                 <div class="arrows">
                     <img @click="arrowUp" src="img/arrowup.png" alt="arrow up">
-                    <span>1/4</span>
+                    <span> {{counter + 1}}/4</span>
                     <img @click="arrowDown" src="img/arrowdown.png" alt="arrow down">
                 </div>
             </div>

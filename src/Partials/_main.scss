@@ -351,38 +351,42 @@
     .text_box {
         width: 50%;
         background-image: $waves;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
+        text-align: center;
         p {
+            margin-top: 40px;
             color: $btnColor;
             font-family: $sansSerif;
         }
-        h3 {
-            font-family: $sansSerif;
-            text-align: center;
-            font-weight: 300;
-            width: 50%;
-            line-height: 37px;
-        }
-
-        .testimonial_info {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
-            img {
-                height: 90px;
-                border-radius: 50%;
-            }
-            span {
+        .story {
+            margin-top: 40px;
+            h3 {
                 font-family: $sansSerif;
-                color: $greyColor;
-                font-size: $smallFont;
+                text-align: center;
+                font-weight: 300;
+                width: 70%;
+                margin: auto;
+                line-height: 37px;
+                font-size: 26px;
             }
-        }
-        
+    
+            .testimonial_info {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                margin-top: 40px;
+                img {
+                    height: 90px;
+                    border-radius: 50%;
+                }
+                span {
+                    font-family: $sansSerif;
+                    color: $greyColor;
+                    font-size: $smallFont;
+                }
+
+            }     
+        }  
     }
     .img_box {
         width: 50%;
