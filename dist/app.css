@@ -561,3 +561,85 @@ header {
   color: #3F3A64;
   border-bottom: 2px solid #3F3A64;
 }
+
+footer {
+  background-color: #141423;
+  height: 300px;
+  padding-top: 40px;
+  font-family: "Commissioner", sans-serif;
+}
+
+.nav_box {
+  display: flex;
+  height: 190px;
+}
+
+.address {
+  line-height: 35px;
+  width: 40%;
+}
+.address h5 {
+  color: #fff;
+  font-size: 18px;
+}
+.address p {
+  color: #6b6c6c;
+  font-size: 14px;
+}
+.address p i {
+  font-size: 20px;
+  margin-right: 20px;
+}
+.address p i:hover {
+  cursor: pointer;
+  color: #20ac97;
+}
+.address .email:hover {
+  cursor: pointer;
+  color: #20ac97;
+}
+
+.footer_nav {
+  font-family: "Commissioner", sans-serif;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+.footer_nav .small_nav .nav_title {
+  color: #fff;
+  margin-bottom: 20px;
+  width: 50%;
+}
+.footer_nav .small_nav .nav_title h5 {
+  color: #fff;
+  font-size: 18px;
+}
+.footer_nav .small_nav ul {
+  color: #6b6c6c;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.footer_nav .small_nav ul li {
+  margin-bottom: 10px;
+  margin-right: 60px;
+}
+.footer_nav .small_nav ul li:hover {
+  color: #20ac97;
+  cursor: pointer;
+}
+.footer_nav .small_nav .long-list {
+  flex-wrap: wrap;
+  height: 110px;
+  -moz-column-count: 2;
+       column-count: 2;
+}
+
+.copyright {
+  text-align: center;
+}
+.copyright p {
+  font-family: "Commissioner", sans-serif;
+  color: #6b6c6c;
+  font-size: 14px;
+}

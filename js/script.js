@@ -159,6 +159,42 @@ var app = new Vue({
                 date: "May 13, 2020",
                 cover: "img/motivation-blog-01-480x325.jpg",
             },
+        },
+
+        explore: {
+            StartHere: {
+                name: "Start Here"
+            },
+            Blog: {
+                name: "Blog"
+            }, 
+            AboutUs:{ 
+                name: "About Us"
+            }, 
+            SuccessStory:{ 
+                name: "Success Story"
+            }, 
+            Courses:{ 
+                name: "Courses"
+            }, 
+            ContactUs:{ 
+                name: "Contact Us"
+            },
+        },
+
+        information: {
+            Memebrship: {
+                name: "Memebrship"
+            },
+            Purchase: {
+                name: "Purchase Guide"
+            }, 
+            Privacy:{ 
+                name: "Privacy Policy"
+            }, 
+            Terms:{ 
+                name: "Terms Of Service"
+            },
         }
     }
-  })
+  });
