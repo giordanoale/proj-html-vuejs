@@ -211,12 +211,13 @@
                 <div class="text_box">
 
                     <p>REAL STORIES</p>
-                    <div class="story" v-for="item in testimonials">
-                        <h3 v-if="item.active == counter">{{item.quote}}</h3>
+                    
+                    <div class="story slide-top" v-for="item in testimonials" v-if="item.active == counter">
+                        <h3>{{item.quote}}</h3>
                         <div class="testimonial_info">
-                            <img v-if="item.active == counter" :src="item.proPic" alt="avatar">
-                            <h3 v-if="item.active == counter">{{item.name}}</h3>
-                            <span v-if="item.active == counter">/{{item.job}}</span>
+                            <img :src="item.proPic" alt="avatar">
+                            <h3>{{item.name}}</h3>
+                            <span>/{{item.job}}</span>
                         </div>
                     </div>
 
