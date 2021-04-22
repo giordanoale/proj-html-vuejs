@@ -15,7 +15,7 @@ body {
 }
 
 .btn {
-  background-color: #20ac97;
+  background-color: #2079AC;
   color: #fff;
   font-size: 14px;
   font-weight: 500;
@@ -66,8 +66,8 @@ header {
   border-bottom: 2px solid transparent;
 }
 .main_nav ul li:hover {
-  color: #20ac97;
-  border-bottom: 2px solid #20ac97;
+  color: #2079AC;
+  border-bottom: 2px solid #2079AC;
 }
 .main_nav ul li i {
   font-size: 8px;
@@ -80,7 +80,7 @@ header {
   margin-left: 12px;
 }
 .social i:hover {
-  color: #20ac97;
+  color: #2079AC;
 }
 
 .hero {
@@ -141,7 +141,7 @@ header {
   background-image: url("../img/background-pattern-grid-line-06.png");
 }
 .interline .stat p {
-  color: #20ac97;
+  color: #2079AC;
   font-size: 32px;
   font-weight: 500;
 }
@@ -165,7 +165,7 @@ header {
   width: 40%;
 }
 .how_to_be .how_title span {
-  color: #20ac97;
+  color: #2079AC;
   font-size: 14px;
   font-family: "Commissioner", sans-serif;
 }
@@ -187,7 +187,7 @@ header {
 }
 .how_to_be .how_text span div {
   display: inline-block;
-  color: #20ac97;
+  color: #2079AC;
 }
 .how_to_be .how_text p {
   font-size: 14px;
@@ -269,7 +269,7 @@ header {
   font-weight: 400;
 }
 .courses_text h2 span {
-  color: #20ac97;
+  color: #2079AC;
 }
 
 .cards {
@@ -308,7 +308,7 @@ header {
   padding-top: 20px;
   font-size: 26px;
   font-weight: 600;
-  color: #20ac97;
+  color: #2079AC;
 }
 .cards .card .card_container p {
   margin-top: 8px;
@@ -318,7 +318,7 @@ header {
   color: #3F3A64;
 }
 .cards .card .card_container p:hover {
-  color: #20ac97;
+  color: #2079AC;
   cursor: pointer;
 }
 .cards .card .card_container .card__text {
@@ -357,7 +357,7 @@ header {
   margin-bottom: 20px;
 }
 .bookstore .bookstore_text h2 span {
-  color: #20ac97;
+  color: #2079AC;
 }
 .bookstore .bookstore_text ul {
   margin-bottom: 20px;
@@ -370,7 +370,7 @@ header {
   margin-bottom: 10px;
 }
 .bookstore .bookstore_text ul li i {
-  color: #20ac97;
+  color: #2079AC;
   font-size: 16px;
   margin-right: 10px;
 }
@@ -406,7 +406,7 @@ header {
   cursor: pointer;
 }
 .bookstore .bookstore_card .circles li:hover {
-  color: #20ac97;
+  color: #2079AC;
 }
 .bookstore .bookstore_card .title {
   font-family: "Commissioner", sans-serif;
@@ -416,7 +416,7 @@ header {
 }
 .bookstore .bookstore_card .price {
   font-family: "Commissioner", sans-serif;
-  color: #20ac97;
+  color: #2079AC;
   font-size: 24px;
   font-weight: 600;
 }
@@ -454,7 +454,7 @@ header {
 }
 .carousel .text_box p {
   margin: 20px 0 40px 0;
-  color: #20ac97;
+  color: #2079AC;
   font-family: "Commissioner", sans-serif;
 }
 .carousel .text_box .story {
@@ -546,7 +546,7 @@ header {
   margin: 20px 0;
 }
 .blog_title h2 span {
-  color: #20ac97;
+  color: #2079AC;
 }
 
 .blog_cards {
@@ -580,7 +580,7 @@ header {
   line-height: 25px;
 }
 .blog_cards .post h4:hover {
-  color: #20ac97;
+  color: #2079AC;
   cursor: pointer;
 }
 
@@ -592,8 +592,8 @@ header {
 .blog_all span {
   font-family: "Commissioner", sans-serif;
   text-transform: uppercase;
-  color: #20ac97;
-  border-bottom: 2px solid #20ac97;
+  color: #2079AC;
+  border-bottom: 2px solid #2079AC;
   padding-bottom: 3px;
   cursor: pointer;
 }
@@ -632,11 +632,11 @@ footer {
 }
 .address p i:hover {
   cursor: pointer;
-  color: #20ac97;
+  color: #2079AC;
 }
 .address .email:hover {
   cursor: pointer;
-  color: #20ac97;
+  color: #2079AC;
 }
 
 .footer_nav {
@@ -665,7 +665,7 @@ footer {
   margin-right: 60px;
 }
 .footer_nav .small_nav ul li:hover {
-  color: #20ac97;
+  color: #2079AC;
   cursor: pointer;
 }
 .footer_nav .small_nav .long-list {
