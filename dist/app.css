@@ -441,7 +441,7 @@ header {
   margin-bottom: 80px;
   display: flex;
   position: relative;
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
 }
 .carousel .text_box {
