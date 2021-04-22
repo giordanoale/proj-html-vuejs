@@ -559,7 +559,6 @@ header {
   flex-direction: column;
   justify-content: space-between;
   width: 22%;
-  height: 120px;
 }
 .blog_cards .post img {
   width: 100%;
@@ -587,7 +586,7 @@ header {
 
 .blog_all {
   text-align: center;
-  margin-top: 224px;
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 .blog_all span {
